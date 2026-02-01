@@ -62,8 +62,8 @@ mvn clean package
 ```
 
 This will create two JAR files in the `target` directory:
-- `mvn-tic-tac-toe-1.0.0-SNAPSHOT.jar` - Standard JAR
-- `mvn-tic-tac-toe-1.0.0-SNAPSHOT-launcher.jar` - Executable JAR with all dependencies
+- `mvn-tic-tac-toe-1.0.0.jar` - Standard JAR
+- `mvn-tic-tac-toe-1.0.0-launcher.jar` - Executable JAR with all dependencies
 
 ## How to Run
 
@@ -76,7 +76,7 @@ mvn exec:java
 ### Option 2: Run the Executable JAR
 
 ```bash
-java -jar target/mvn-tic-tac-toe-1.0.0-SNAPSHOT-launcher.jar
+java -jar target/mvn-tic-tac-toe-1.0.0-launcher.jar
 ```
 
 ### Option 3: Run from IDE
